@@ -31,6 +31,7 @@ const model = {
   data: {
     category: [],
 
+    favouriteList: [],
     activityList: [
             {
                 description: "jog"
@@ -44,7 +45,7 @@ const model = {
             {
                 description: "hikking"
             }
-        ]
+    ]
   },
 
   // Used by Activity Overview page (returned by backend)
